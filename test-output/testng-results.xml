@@ -2,60 +2,60 @@
 <testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20189" started-at="2017-04-10T04:19:50Z" finished-at="2017-04-10T04:20:10Z">
+  <suite name="Default suite" duration-ms="9143" started-at="2017-04-10T04:30:21Z" finished-at="2017-04-10T04:30:31Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20189" started-at="2017-04-10T04:19:50Z" finished-at="2017-04-10T04:20:10Z">
+    <test name="Default test" duration-ms="9143" started-at="2017-04-10T04:30:21Z" finished-at="2017-04-10T04:30:31Z">
       <class name="LoginPageTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:LoginPageTest@523884b2]" name="beforeSuite" is-config="true" duration-ms="2648" started-at="2017-04-10T00:19:48Z" finished-at="2017-04-10T00:19:50Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:LoginPageTest@523884b2]" name="beforeSuite" is-config="true" duration-ms="2596" started-at="2017-04-10T00:30:19Z" finished-at="2017-04-10T00:30:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:LoginPageTest@523884b2]" name="beforeTest" is-config="true" duration-ms="5428" started-at="2017-04-10T00:19:50Z" finished-at="2017-04-10T00:19:56Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:LoginPageTest@523884b2]" name="beforeTest" is-config="true" duration-ms="1677" started-at="2017-04-10T00:30:21Z" finished-at="2017-04-10T00:30:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="LoginAccountLock()[pri:0, instance:LoginPageTest@523884b2]" name="LoginAccountLock" duration-ms="6883" started-at="2017-04-10T00:19:56Z" description="Test the possibility of account locking" finished-at="2017-04-10T00:20:03Z">
+        <test-method status="PASS" signature="LoginAccountLock()[pri:0, instance:LoginPageTest@523884b2]" name="LoginAccountLock" duration-ms="3231" started-at="2017-04-10T00:30:23Z" description="Test the possibility of account locking" finished-at="2017-04-10T00:30:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginAccountLock -->
-        <test-method status="PASS" signature="LoginButtonEmptyFields()[pri:0, instance:LoginPageTest@523884b2]" name="LoginButtonEmptyFields" duration-ms="1291" started-at="2017-04-10T00:20:03Z" description="Click the login button with no data in the input fields" finished-at="2017-04-10T00:20:04Z">
+        <test-method status="PASS" signature="LoginButtonEmptyFields()[pri:0, instance:LoginPageTest@523884b2]" name="LoginButtonEmptyFields" duration-ms="590" started-at="2017-04-10T00:30:26Z" description="Click the login button with no data in the input fields" finished-at="2017-04-10T00:30:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginButtonEmptyFields -->
-        <test-method status="PASS" signature="LoginEmptyPassword()[pri:0, instance:LoginPageTest@523884b2]" name="LoginEmptyPassword" duration-ms="1011" started-at="2017-04-10T00:20:04Z" description="Performs a login using an empty username" finished-at="2017-04-10T00:20:05Z">
+        <test-method status="PASS" signature="LoginEmptyPassword()[pri:0, instance:LoginPageTest@523884b2]" name="LoginEmptyPassword" duration-ms="577" started-at="2017-04-10T00:30:27Z" description="Performs a login using an empty username" finished-at="2017-04-10T00:30:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginEmptyPassword -->
-        <test-method status="PASS" signature="LoginEmptyUserName()[pri:0, instance:LoginPageTest@523884b2]" name="LoginEmptyUserName" duration-ms="1041" started-at="2017-04-10T00:20:05Z" description="Performs a login using an empty username" finished-at="2017-04-10T00:20:06Z">
+        <test-method status="PASS" signature="LoginEmptyUserName()[pri:0, instance:LoginPageTest@523884b2]" name="LoginEmptyUserName" duration-ms="574" started-at="2017-04-10T00:30:28Z" description="Performs a login using an empty username" finished-at="2017-04-10T00:30:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginEmptyUserName -->
-        <test-method status="PASS" signature="LoginInvalidPassword()[pri:0, instance:LoginPageTest@523884b2]" name="LoginInvalidPassword" duration-ms="1005" started-at="2017-04-10T00:20:06Z" description="Performs a login using an invalid username" finished-at="2017-04-10T00:20:07Z">
+        <test-method status="PASS" signature="LoginInvalidPassword()[pri:0, instance:LoginPageTest@523884b2]" name="LoginInvalidPassword" duration-ms="576" started-at="2017-04-10T00:30:28Z" description="Performs a login using an invalid username" finished-at="2017-04-10T00:30:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginInvalidPassword -->
-        <test-method status="PASS" signature="LoginInvalidUserName()[pri:0, instance:LoginPageTest@523884b2]" name="LoginInvalidUserName" duration-ms="1033" started-at="2017-04-10T00:20:07Z" description="Performs a login using an invalid username" finished-at="2017-04-10T00:20:08Z">
+        <test-method status="PASS" signature="LoginInvalidUserName()[pri:0, instance:LoginPageTest@523884b2]" name="LoginInvalidUserName" duration-ms="608" started-at="2017-04-10T00:30:29Z" description="Performs a login using an invalid username" finished-at="2017-04-10T00:30:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginInvalidUserName -->
-        <test-method status="PASS" signature="LoginValid()[pri:0, instance:LoginPageTest@523884b2]" name="LoginValid" duration-ms="2034" started-at="2017-04-10T00:20:08Z" description="Performs a valid login" finished-at="2017-04-10T00:20:10Z">
+        <test-method status="PASS" signature="LoginValid()[pri:0, instance:LoginPageTest@523884b2]" name="LoginValid" duration-ms="779" started-at="2017-04-10T00:30:29Z" description="Performs a valid login" finished-at="2017-04-10T00:30:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginValid -->
-        <test-method status="PASS" signature="NavigateToPage()[pri:0, instance:LoginPageTest@523884b2]" name="NavigateToPage" duration-ms="20" started-at="2017-04-10T00:20:10Z" description="Navigates to the login page" finished-at="2017-04-10T00:20:10Z">
+        <test-method status="PASS" signature="NavigateToPage()[pri:0, instance:LoginPageTest@523884b2]" name="NavigateToPage" duration-ms="23" started-at="2017-04-10T00:30:30Z" description="Navigates to the login page" finished-at="2017-04-10T00:30:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NavigateToPage -->
-        <test-method status="PASS" signature="PageFormatting()[pri:0, instance:LoginPageTest@523884b2]" name="PageFormatting" duration-ms="415" started-at="2017-04-10T00:20:10Z" description="Validates the element formatting on the page" finished-at="2017-04-10T00:20:10Z">
+        <test-method status="PASS" signature="PageFormatting()[pri:0, instance:LoginPageTest@523884b2]" name="PageFormatting" duration-ms="478" started-at="2017-04-10T00:30:30Z" description="Validates the element formatting on the page" finished-at="2017-04-10T00:30:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PageFormatting -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:LoginPageTest@523884b2]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-04-10T00:20:10Z" finished-at="2017-04-10T00:20:10Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:LoginPageTest@523884b2]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-04-10T00:30:31Z" finished-at="2017-04-10T00:30:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:LoginPageTest@523884b2]" name="afterSuite" is-config="true" duration-ms="754" started-at="2017-04-10T00:20:10Z" finished-at="2017-04-10T00:20:11Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:LoginPageTest@523884b2]" name="afterSuite" is-config="true" duration-ms="749" started-at="2017-04-10T00:30:31Z" finished-at="2017-04-10T00:30:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
